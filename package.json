@@ -1,0 +1,25 @@
+{
+  "name": "floating-point-calculator",
+  "version": "1.0.0",
+  "description": "A JavaScript library for floating-point calculation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhb241/floating-point-calculator.git"
+  },
+  "keywords": [
+    "float",
+    "floating-point",
+    "calculation",
+    "calculate"
+  ],
+  "author": "Harbor Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhb241/floating-point-calculator/issues"
+  },
+  "homepage": "https://github.com/yhb241/floating-point-calculator#readme"
+}
