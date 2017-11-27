@@ -5,7 +5,7 @@ module.exports = {
     FloatingPointCalculator: './src/FloatingPointCalculator.js'
   },
   output: {
-    filename: '[name].min.js',
+    filename: '[name].js',
     path: __dirname + '/build'
   },
   module: {
