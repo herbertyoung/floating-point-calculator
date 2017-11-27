@@ -1,1 +1,1 @@
-module.exports = require('./src/FloatingPointCalculator.js');
+module.exports = require('./build/FloatingPointCalculator.js');
