@@ -6,7 +6,10 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: __dirname + '/build'
+    path: __dirname + '/build',
+    library: 'FloatingPointCalculator',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     loaders: [{
