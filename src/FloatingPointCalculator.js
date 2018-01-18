@@ -19,7 +19,7 @@ const FloatingPointCalculator = {
         decimal = val.toString().substr(dotIndex + 1).length;
       }
       return parseFloat(acc) + parseFloat(val);
-    });
+    }, 0);
 
     return parseFloat(result.toFixed(decimal));
   },
@@ -45,7 +45,7 @@ const FloatingPointCalculator = {
         decimal += val.toString().substr(dotIndex + 1).length;
       }
       return parseFloat(acc) * parseFloat(val);
-    });
+    }, 1);
 
     return parseFloat(result.toFixed(decimal));
   },
