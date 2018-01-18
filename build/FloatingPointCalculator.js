@@ -492,7 +492,7 @@ var FloatingPointCalculator = {
         decimal = val.toString().substr(dotIndex + 1).length;
       }
       return parseFloat(acc) + parseFloat(val);
-    });
+    }, 0);
 
     return parseFloat(result.toFixed(decimal));
   },
@@ -507,7 +507,6 @@ var FloatingPointCalculator = {
     return this.add.apply(this, _toConsumableArray(params));
   },
   mult: function mult() {
-    console.log('333');
     if (arguments.length < 1) {
       return;
     }
@@ -519,7 +518,7 @@ var FloatingPointCalculator = {
         decimal += val.toString().substr(dotIndex + 1).length;
       }
       return parseFloat(acc) * parseFloat(val);
-    });
+    }, 1);
 
     return parseFloat(result.toFixed(decimal));
   },
