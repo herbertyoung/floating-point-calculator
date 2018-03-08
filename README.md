@@ -39,6 +39,16 @@ FPC.sub(0.4, 0.3, 0.2); // -0.1
 FPC.mult(2.01, 10, 10); // 201
 ```
 
+You can also use ES6 syntax:
+
+```javascript
+import FPC from 'floating-point-calculator';
+
+FPC.add(...[0.1, 0.1, 0.1]); // 0.3
+FPC.sub(...[0.4, 0.3, 0.2]); // -0.1
+FPC.mult(...[2.01, 10, 10]); // 201
+```
+
 ## License
 
 MIT
